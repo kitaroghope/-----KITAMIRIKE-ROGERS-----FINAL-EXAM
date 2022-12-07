@@ -9,3 +9,7 @@ $("#btn").click(function(e){
         $("#email").val("");
     }
 });
+$("#Un").click(function(){
+    let name_ = prompt("Enter ur name","here");
+    $("#Un").text(name_);
+});
