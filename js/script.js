@@ -6,5 +6,6 @@ $("#btn").click(function(e){
     }
     else{
         alert("your welcome");
+        $("#email").val("");
     }
 });
